@@ -1,0 +1,7 @@
+main: "notebook.ipynb"
+preview: "images/preview.png"
+title: "Graphing data from MongoDB"
+description: "This guide will walk you through how to connect to your own MongoDB instance from a Jupyter notebook, pull in your data and plot it, all with python."
+tags:
+  - template
+  - mongodb
