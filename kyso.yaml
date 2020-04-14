@@ -1,7 +1,7 @@
 main: "notebook.ipynb"
 preview: "images/preview.png"
-title: "Graphing data from MongoDB"
-description: "This guide will walk you through how to connect to your own MongoDB instance from a Jupyter notebook, pull in your data and plot it, all with python."
+title: "Customer activity levels case study"
+description: "Customer is a SaaS company that charges per seat, like Github. We will assume here that the costs of hosting each customer are negligible. Will look at teams that are more than 3 months old."
 tags:
   - template
   - mongodb
