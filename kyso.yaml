@@ -1,7 +1,10 @@
 main: "notebook.ipynb"
 preview: "images/preview.png"
 title: "Customer activity levels case study"
-description: "Customer is a SaaS company that charges per seat, like Github. We will assume here that the costs of hosting each customer are negligible. Will look at teams that are more than 3 months old."
+description: "The customer is a SaaS company that charges per seat, like Github. The costs of hosting each seat are negligible. This guide uses MongoDB and Python to measure the posts, comments, and views made by teams of the online community, and the cost of users' inactivity. "
 tags:
   - template
   - mongodb
+  - python
+  - mixpanel
+  - googleanalytics
