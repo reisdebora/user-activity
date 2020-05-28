@@ -55,6 +55,8 @@ python -m pip install plotly
 jupyter labextension uninstall @jupyterlab/plotly-extension
 jupyter labextension install jupyterlab-plotly
 python -m pip install cufflinks
+python -m pip install psutil
+python -m pip install statsmodels 
 ```
 
 ## MongoDB Connection
@@ -69,7 +71,7 @@ python -m pip install pymongo
 Look at your MongoDB connection URI. If your connection begins with "mongodb+srv:" you need to make sure to install dnspython with: 
 
 ```
-! python -m pip install dnspython
+python -m pip install dnspython
 ```
 
 If you use MongoDB Atlas, you can find some steps to find your URI at https://docs.atlas.mongodb.com/driver-connection/.
