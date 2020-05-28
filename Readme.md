@@ -14,7 +14,7 @@ Then active a conda virtual environment with
 ```
 conda env create -f environment.yml
 conda activate dev
-jupyter labextension install jupyterlab-plotly
+
 ```
 
 ## Usage
@@ -50,4 +50,26 @@ this allows others to run the report easily
 
 ```
 conda env export --no-builds > environment.yml
+conda activate dev
+python -m pip install plotly
+jupyter labextension uninstall @jupyterlab/plotly-extension
+jupyter labextension install jupyterlab-plotly
+python -m pip install cufflinks
 ```
+
+## MongoDB Connection
+
+You have to make sure that you have MongoDB installed in your computer. If not, install it in command line with:
+```
+brew install mongodb-community
+brew services start mongodb-community
+python -m pip install pymongo
+```
+
+Look at your MongoDB connection URI. If your connection begins with "mongodb+srv:" you need to make sure to install dnspython with: 
+
+```
+! python -m pip install dnspython
+```
+
+If you use MongoDB Atlas, you can find some steps to find your URI at https://docs.atlas.mongodb.com/driver-connection/.
