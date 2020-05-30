@@ -2,3 +2,9 @@
 env
 secret.yml
 notebook_preprocess.ipynb
+cache/comments_full.csv
+cache/comments_full.json
+cache/posts_full.csv
+cache/posts_full.json
+cache/users_full.csv
+cache/users_full.json
