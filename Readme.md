@@ -37,6 +37,16 @@ And start working.
 
 Push to Github and import into Kyso.
 
+If you have big files (bigger than 100MB), you should also install GIT LFS to store them at Git repository:
+
+```
+brew install git-lfs
+git lfs install
+git lfs install --system
+git lfs track '*.csv'
+git lfs track '*.json'
+```
+
 ## Installing extra libraries
 
 Install any libraries you need with
